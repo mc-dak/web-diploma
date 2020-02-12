@@ -40,7 +40,15 @@ $(function () {
     $('#overlay').remove('#overlay');
     return false;
   });
-}); 
+  $(document).mouseup(function (e){
+    var div = $(".popup"); 
+    if (!div.is(e.target)
+        && div.has(e.target).length === 0) {
+          div.hide(); // скрываем его
+          $('#overlay').remove('#overlay');
+        }
+  });
+});
 
 //script for burger
     let burger = document.querySelector('.menu-burger');
