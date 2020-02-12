@@ -50,6 +50,11 @@ $(function () {
   });
 });
 
+//script for mask
+$(function(){
+  $(".popup-phone").mask("+7(999) 999-9999");
+});
+
 //script for burger
     let burger = document.querySelector('.menu-burger');
     let menu = document.querySelector('.menu');
