@@ -75,6 +75,7 @@ html, body {
 html {
 	min-width: 	320px;
 	max-width: 1920px;
+		font-family: Roboto;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
@@ -82,7 +83,6 @@ html {
 *,
 ::before,
 ::after {
-	font-family: Roboto;
   	-webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -841,6 +841,8 @@ footer{
 			height: 40px;
 			float: left;
 			margin-right: 11px;
+			border: 0;
+			cursor: pointer;
 		}
 
 		.fb{
