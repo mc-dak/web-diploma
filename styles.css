@@ -185,7 +185,7 @@ button{
 		  margin-right:20px;
 		}
 
-	.menu-burger{
+	.menu__burger{
 		width: 47px;
 		height: 35px;
 		margin: 40px 0 0 40px;
@@ -194,7 +194,7 @@ button{
 		cursor: pointer; 
 	}
 		
-		.menu-burger span{
+		.menu__burger span{
 			display: block;
 			width: 30px;
 			height: 4px;
@@ -203,16 +203,16 @@ button{
 			background: linear-gradient(0deg, #ff8f5a, #ff2f96);
 		}
 
-		.menu-burger span:nth-child(2){
+		.menu__burger span:nth-child(2){
 			margin: 5px 0;
 		}
 
 
-		.menu-burger_close {
+		.menu__burger_close {
 			display: none;
 		}
 
-		.menu-burger_close span {
+		.menu__burger_close span {
 			position: absolute;
 			left: 0;
 			top: 50%;
@@ -225,13 +225,13 @@ button{
 			        transform: translateY(-50%);
 		}
 
-		.menu-burger_close span:first-child {
+		.menu__burger_close span:first-child {
 			-webkit-transform: rotate(45deg);
 			    -ms-transform: rotate(45deg);
 			        transform: rotate(45deg);
 		}
 
-		.menu-burger_close span:last-child {
+		.menu__burger_close span:last-child {
 			-webkit-transform: rotate(-45deg);
 			    -ms-transform: rotate(-45deg);
 			        transform: rotate(-45deg);
@@ -247,7 +247,7 @@ button{
 		font-size: 20px; 
 	}
 
-	.button1 {
+	.button_white {
 			width: 207px;
 			height: 45px;
 			border:1px solid #f82370;
@@ -258,7 +258,7 @@ button{
 			font-size: 16px;
 	}
 
-		.button1_position1 {
+		.button_white_position1 {
 			margin: 30px 350px 0 30px;
 		}
 
@@ -406,7 +406,7 @@ button{
 				clear: both;  
 		}
 
-	.button2 {
+	.button_orange {
 			width: 270px;
 			height: 60px;
 			background-color: #ff4e2e;
@@ -418,17 +418,21 @@ button{
 			font-size: 16px;
 	}
 
-		.button2_position1 {
+		.button_orange_visibility {
+			display: none;
+		}	
+
+		.button_orange_position1 {
 			margin-top: 20px;
 			clear: both;
 			float: left;
 		}
 
-		.button2_position2{
+		.button_orange_position2{
 			margin: 100px auto;
 		}
 
-		.button2_position3{
+		.button_orange_position3{
 			margin: 80px auto;
 		}
 
@@ -670,7 +674,7 @@ p {
 		width:729px;
 		margin:0 auto;
 	}
-		.first-text{
+		.gradient__text_main{
 			float: left;
 			margin-top: 88px;
 			width:729px;
@@ -678,7 +682,7 @@ p {
 			font-size: 35px;
 
 		}
-		.second-text{
+		.gradient__text_secondary{
 			float: left;
 			margin-top: 30px;
 			width:670px;
@@ -761,76 +765,76 @@ footer{
 			        flex-flow: row wrap;
 		}
 
-		.foot-menu{
+		.foot-data__menu{
 			width: 100px;
 			height: 83px;
 			margin-top: 80px;
 		}
 
-			.foot-navbar {
+			.foot-data__navbar {
 			  margin: 0;
 			  padding-left:5px;
 			  list-style: none;
 			}
 
-			.foot-navbar a{
+			.foot-data__navbar a{
 				color: black;
 				font-weight: 400;
 				font-size: 16px;
 				color:#8993ad;
 			}
 
-			.foot-navbar a:hover{
+			.foot-data__navbar a:hover{
 			  	text-decoration:underline;
 				color:#f82370;
 			}
 
-			.foot-navbar li {
+			.foot-data__navbar li {
 			  display: block;
 			  padding-bottom: 10px;
 			}
 
-		.foot-contacts{
+		.foot-data__contacts{
 			width: 300px;
 			height: 93px;
 			margin-top: 80px;
 		}
 
-		.foot-phone {
+		.foot-data__phone {
 			width: 300px;
 			height: 35px;
 			margin-bottom: 23px;
 		}
-			.foot-phone i{
+			.foot-data__phone i{
 				color:#f82370;
 				font-size: 26px;
 			}
-			.foot-phone a{
+			.foot-data__phone a{
 				color: black;
 				font-size: 26px;
 			}
 
-		.foot-email{
+		.foot-data__email{
 			width: 300px;
 			height: 35px;
 		}
 
-			.foot-email i{
+			.foot-data__email i{
 				color:#f82370;
 				font-size: 26px;
 			}
-			.foot-email a{
+			.foot-data__email a{
 				font-size: 26px;
 				color: black;
 			}
 
-		.foot-button-and-social{
+		.foot-data__button__social{
 			width: 207px;
 			height: 100px;
 			margin-top: 80px;
 		}
 
-		.social-links{
+		.foot-data__social{
 			width: 207px;
 			height: 40px;
 			float: left;
@@ -872,10 +876,6 @@ footer{
 			padding-top: 30px;
 		}
 
-		.button3{
-			display: none;
-		}
-
 @media (max-width: 1688px){
 	.fio{
 		width: 520px;
@@ -894,7 +894,7 @@ footer{
 	margin-left: 130px;
 }
 
-	.button1_position1 {
+	.button_white_position1 {
 		margin-right: 145px;
 	}
 
@@ -924,7 +924,7 @@ footer{
 .about {
 	background-position: -640px -6px;
 }
-	.menu-wrapper{
+	.menu__wrapper{
 		width: 100%;
 		height:100%;
 		display: table-cell;
@@ -948,10 +948,10 @@ footer{
 		transition: opacity 0.3s, visibility 0.3s;
 	}
 
-	.menu-burger{
+	.menu__burger{
 		display: block; 
 	}
-		.menu-burger_open{
+		.menu__burger_open{
 			opacity: 1;
 			visibility: visible;
 			-webkit-transition: opacity 0.3s, visibility 0.3s;
@@ -959,7 +959,7 @@ footer{
 			transition: opacity 0.3s, visibility 0.3s;
 		}
 
-		.menu-burger_close {
+		.menu__burger_close {
 			position: absolute;
 			width: 40px;
 			height: 40px;
@@ -984,7 +984,7 @@ footer{
 			margin-bottom: 30px;
 		}
 	
-	.button1_position1{
+	.button_white_position1{
 		margin: 30px 20px 0 50px;
 	}
 
@@ -1031,12 +1031,12 @@ footer{
 	    left: 530px;
 	}
 
-	.button2 {
+	.button_orange {
 			width: 320px;
 			height: 75px;
 	}
 
-		.button2_position2{
+		.button_orange_position2{
 			margin: 50px auto;
 	}
 
@@ -1096,7 +1096,7 @@ footer{
 		font-size: 26px;
 	}
 
-	.button2 {
+	.button_orange {
 		width: 180px;
 		height: 55px;
 	}
@@ -1104,13 +1104,13 @@ footer{
 	.gradient__text{
 		width: 630px;
 	}
-		.first-text{
+		.gradient__text_main{
 			font-size: 30px;
 			width: 630px;
 			height: 80px;
 		}
 
-		.second-text{
+		.gradient__text_secondary{
 			width: 630px;
 			font-size: 18px;
 		}
@@ -1122,11 +1122,11 @@ footer{
 	background-position: -1174px -6px;
 }
 	
-	.button1{
+	.button_white{
 		display: none;
 	}
 
-	.menu-burger{
+	.menu__burger{
 		margin: 28px 0 0 20px;
 	}
 	.tel-number{
@@ -1172,17 +1172,21 @@ footer{
 			text-align: center;  
 		}
 
-	.button2 {
+	.button_orange {
 		width: 280px;
 		height: 75px;
 	}
 
-	.button2_position2{
+	.button_orange_position2{
 		margin: 0 auto;
 	}
 
-	.button2_position3{
+	.button_orange_position3{
 		margin: 10px auto;
+	}
+
+	.button_orange_visibility {
+		display: block;
 	}
 
 	.grid{
@@ -1237,18 +1241,6 @@ footer{
 		padding: 0;
 	}
 
-	.button3{
-		width: 280px;
-		height: 75px;
-		display: block;
-		cursor: pointer;
-		background-color: #ff4e2e;
-		margin:0 auto;
-		border: 0;
-		color:white;
-		font-size: 16px;
-	}
-
 .gradient {
 	height: 437px;
 }
@@ -1257,14 +1249,14 @@ footer{
 		width: 280px;
 		height: 320px;
 	}
-		.first-text{
+		.gradient__text_main{
 			font-size: 28px;
 			margin-top: 50px;
 			width: 280px;
 			height: 200px;
 		}
 
-		.second-text{
+		.gradient__text_secondary{
 			margin-top: 30px;
 			width: 280px;
 			height: 100px;
@@ -1297,42 +1289,42 @@ footer{
 	max-width: 559px;
 }
 
-	.foot-menu{
+	.foot-data__menu{
 		margin-top: 45px;
 		width: 280px;
 	}
 
-	.foot-contacts{
+	.foot-data__contacts{
 		margin-top: 45px;
 		width: 280px;
 	}
 
-		.foot-phone {
+		.foot-data__phone {
 			width: 280px;
 		}
-			.foot-phone i{
+			.foot-data__phone i{
 				font-size: 20px;
 			}
 
-			.foot-phone a{
+			.foot-data__phone a{
 				color:#8993ad;
 				font-size: 20px;
 			}
 
-		.foot-email{
+		.foot-data__email{
 			width: 280px;
 		}
 
-			.foot-email i{
+			.foot-data__email i{
 				font-size: 20px;
 			}
 
-			.foot-email a{
+			.foot-data__email a{
 				color:#8993ad;
 				font-size: 20px;
 			}
 
-	.foot-button-and-social{
+	.foot-data__button__social{
 		width: 280px;
 		margin-top: 20px;
 	}
