@@ -75,7 +75,8 @@ html, body {
 html {
 	min-width: 	320px;
 	max-width: 1920px;
-		font-family: Roboto;
+	font-family: Roboto;
+	scroll-behavior: smooth;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
