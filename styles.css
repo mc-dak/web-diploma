@@ -155,7 +155,7 @@ button{
 		width: 83px;
 		height: 39px;
 		background: url(img/grid.png) no-repeat center;
-	    top: 310px;
+	    top: 352px;
 	    left: 215px;
 	}
 
@@ -185,7 +185,7 @@ button{
 		  margin-right:20px;
 		}
 
-	.menu__burger{
+	.menu-burger{
 		width: 47px;
 		height: 35px;
 		margin: 40px 0 0 40px;
@@ -194,7 +194,7 @@ button{
 		cursor: pointer; 
 	}
 		
-		.menu__burger span{
+		.menu-burger span{
 			display: block;
 			width: 30px;
 			height: 4px;
@@ -203,16 +203,16 @@ button{
 			background: linear-gradient(0deg, #ff8f5a, #ff2f96);
 		}
 
-		.menu__burger span:nth-child(2){
+		.menu-burger span:nth-child(2){
 			margin: 5px 0;
 		}
 
 
-		.menu__burger_close {
+		.menu-burger_close {
 			display: none;
 		}
 
-		.menu__burger_close span {
+		.menu-burger_close span {
 			position: absolute;
 			left: 0;
 			top: 50%;
@@ -225,13 +225,13 @@ button{
 			        transform: translateY(-50%);
 		}
 
-		.menu__burger_close span:first-child {
+		.menu-burger_close span:first-child {
 			-webkit-transform: rotate(45deg);
 			    -ms-transform: rotate(45deg);
 			        transform: rotate(45deg);
 		}
 
-		.menu__burger_close span:last-child {
+		.menu-burger_close span:last-child {
 			-webkit-transform: rotate(-45deg);
 			    -ms-transform: rotate(-45deg);
 			        transform: rotate(-45deg);
@@ -246,6 +246,10 @@ button{
 		font-weight: 900;
 		font-size: 20px; 
 	}
+
+		.tel-number a{
+			color: black;
+		}
 
 	.button_white {
 			width: 207px;
@@ -314,6 +318,8 @@ button{
 .popup h2 {
 	font:bold 18px/32px;
 }
+
+/*
 .popup a.close {
 	width:16px;
 	height:16px;
@@ -324,11 +330,49 @@ button{
 	right:10px;
 	background:url(img/close.png) no-repeat;
 }
+*/
+		.popup a.close {
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			right: 20px;
+			top: 30px;
+			display: block;
+		}
+
+		.popup a.close span {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			display: block;
+			height: 3px;
+			width: 16px;
+			background-color: #fff;
+			-webkit-transform: translateY(-50%);
+			    -ms-transform: translateY(-50%);
+			        transform: translateY(-50%);
+		}
+
+		.popup a.close span:first-child {
+			-webkit-transform: rotate(45deg);
+			    -ms-transform: rotate(45deg);
+			        transform: rotate(45deg);
+		}
+
+		.popup a.close span:last-child {
+			-webkit-transform: rotate(-45deg);
+			    -ms-transform: rotate(-45deg);
+			        transform: rotate(-45deg);
+		}
+
+
+
 
 /**********popup with form**********/
 .reg_form {
 	margin-left:-200px;
 	width:400px;
+	background: linear-gradient(10deg, #ff8f5a, #ff2f96);
 }
 .reg_form form {
 	margin-top:10px;
@@ -351,7 +395,7 @@ button{
 	margin:10px 15px 0 0;
 	padding:3px 10px;
 	float:right;
-	background:#ccc;
+	background:#ff4e2e;
 	border:0;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -360,6 +404,7 @@ button{
 	text-transform:uppercase;
 	position:relative;
 	cursor:pointer;
+	color: white;
 	behavior: url(PIE.htc);
 }
 .reg_form input[type=submit]:hover {
@@ -888,10 +933,22 @@ footer{
 		height: 40px;
 		font-size: 25px;
 	}
+
+	.button_orange_position1 {
+		margin-top: 50px;
+	}
+
+	.div1 {
+	    top: -20px;
+	}
 }
 @media (max-width: 1432px){
 .menu{
 	margin-left: 130px;
+}
+
+.about {
+	background-position: -440px -6px;
 }
 
 	.button_white_position1 {
@@ -919,7 +976,15 @@ footer{
 
 	}
 }
+@media (max-width: 1168px){
+.about {
+	background-position: -540px -6px;
+}
+	.div1 {
+	    left: 855px;
+	}
 
+}
 @media (max-width: 1024px){
 .about {
 	background-position: -640px -6px;
@@ -948,10 +1013,10 @@ footer{
 		transition: opacity 0.3s, visibility 0.3s;
 	}
 
-	.menu__burger{
+	.menu-burger{
 		display: block; 
 	}
-		.menu__burger_open{
+		.menu-burger_open{
 			opacity: 1;
 			visibility: visible;
 			-webkit-transition: opacity 0.3s, visibility 0.3s;
@@ -959,7 +1024,7 @@ footer{
 			transition: opacity 0.3s, visibility 0.3s;
 		}
 
-		.menu__burger_close {
+		.menu-burger_close {
 			position: absolute;
 			width: 40px;
 			height: 40px;
@@ -1081,7 +1146,7 @@ footer{
 	}	
 
 	.info {
-		max-width: 660px;
+		max-width: 700px;
 	}
 
 	.fio{
@@ -1119,14 +1184,14 @@ footer{
 @media (max-width: 660px){
 .about {
 	max-width: 660px;
-	background-position: -1174px -6px;
+	background-position: -1074px -6px;
 }
 	
 	.button_white{
 		display: none;
 	}
 
-	.menu__burger{
+	.menu-burger{
 		margin: 28px 0 0 20px;
 	}
 	.tel-number{
@@ -1335,6 +1400,11 @@ footer{
 	}
 }
 
+@media (max-width: 520px){
+.about {
+	background-position: -1174px -6px;
+}
+}
 @media (max-width: 320px){
 .about {
 	max-width: 320px;

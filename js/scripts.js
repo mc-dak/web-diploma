@@ -60,6 +60,7 @@ $(function(){
     let menu = document.querySelector('.menu');
     let close = document.querySelector('.menu-burger_close');
 
+
     burger.addEventListener('click', function(e){
       e.preventDefault();
       menu.classList.add('menu-burger_open');
@@ -67,5 +68,9 @@ $(function(){
 
     close.addEventListener('click', function(e){
       e.preventDefault();
+      menu.classList.remove('menu-burger_open');
+    });
+
+    $( '.menu a' ).on("click", function(){
       menu.classList.remove('menu-burger_open');
     });
