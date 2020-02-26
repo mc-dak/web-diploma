@@ -1,5 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 /* roboto-300 - cyrillic_latin */
 @font-face {
   font-family: 'Roboto';
@@ -240,7 +238,7 @@ button{
 	.tel-number{
 		width: 190px;
 		height: 30px;
-		margin: 40px 0 0 20px;
+		margin: 40px 0 0 5px;
 		float: right;
 		cursor: pointer;
 		font-weight: 900;
@@ -292,7 +290,6 @@ button{
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	border-radius:3px;
-	behavior: url(PIE.htc);
 }
 .link_group a:hover {
 	color:#cc0000;
@@ -313,7 +310,6 @@ button{
 	-webkit-border-radius:15px;
 	border-radius:15px;
 	z-index:200;
-	behavior: url(PIE.htc);
 }
 .popup h2 {
 	font:bold 18px/32px;
@@ -405,7 +401,6 @@ button{
 	position:relative;
 	cursor:pointer;
 	color: white;
-	behavior: url(PIE.htc);
 }
 .reg_form input[type=submit]:hover {
 	color:#fff;
