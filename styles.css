@@ -80,10 +80,6 @@ html {
 
 h2,h3,h4,h5,h6 {
 	font-weight: 400;
-	margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 *,
@@ -421,7 +417,7 @@ button{
 	
 	.info {
 		max-width: 1240px;
-		height: 500px;
+		height: 370px;
 		margin: 0 auto;
 	}
 	
@@ -881,7 +877,7 @@ footer{
 			margin-top: 20px;	
 		}
 		.icons{
-			background: url(img/social-regular.png) no-repeat;
+
 			width: 40px;
 			height: 40px;
 			float: left;
@@ -892,15 +888,31 @@ footer{
 		}
 
 		.fb{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background: url(img/social-regular.png) no-repeat;			
 		 	background-position: -50px -50px;
 		}
 		.vk{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background: url(img/social-regular.png) no-repeat;			
 		 	background-position: -480px -50px;
 		}
 		.twitter{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background: url(img/social-regular.png) no-repeat;						
 		 	background-position: -120px -50px;
 		}
 		.instagram{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background: url(img/social-regular.png) no-repeat;						
 		 	background-position: -50px -193px;
 		}
 
@@ -917,7 +929,7 @@ footer{
 			padding-top: 30px;
 		}
 
-@media (max-width: 1688px){
+@media (max-width: 1720px){
 	.fio{
 		width: 520px;
 		height: 70px;
@@ -946,8 +958,12 @@ footer{
 @media (max-width: 1432px){
 
 .about {
-	background-position: -440px -6px;
+	background-position: -540px -0px;
 }
+
+	.div1 {
+	    left: 935px;
+	}
 
 	.grid2 {
 	    top: 80px;
@@ -970,18 +986,15 @@ footer{
 	}
 }
 @media (max-width: 1168px){
-.about {
-	background-position: -540px -6px;
-}
 
-	.div1 {
-	    left: 935px;
-	}
+.about {
+	background-position: -590px -0px;
+}
 
 }
 @media (max-width: 1024px){
 .about {
-	background-position: -640px -6px;
+	background-position: -640px -0px;
 }
 	.menu__wrapper{
 		width: 100%;
